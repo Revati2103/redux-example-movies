@@ -2,7 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+
+
+//STORE -> Global state
+
+//ACTION -> Describes what is going to be done
+
+//REDUCERS -> The actual action that changes the state of the global store
+
+//DISPATCH -> To invoke reducers to change the state of the global store
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -11,7 +19,3 @@ root.render(
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
